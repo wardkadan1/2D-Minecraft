@@ -172,6 +172,24 @@ main {
   background-size: cover;
 }
 
+.stone1:hover,
+.stone2:hover,
+.stone3:hover,
+.soil1:hover,
+.soil2:hover,
+.soil3:hover,
+.soil4:hover,
+.soil5:hover,
+.grass1:hover,
+.grass2:hover,
+.grass3:hover,
+.grass4:hover,
+.grass5:hover,
+.wood:hover,
+.leaves:hover {
+  border: 1px solid white;
+}
+
 .creeper {
   width: 121%;
   height: auto;
