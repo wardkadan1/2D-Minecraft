@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #0e1a1a;
+}
+
+.sky_ {
+  background-image: url(assets/sky.png);
+}
+
+.grass1 {
+  background-image: url(assets/grass1.png);
+}
+
+.grass2 {
+  background-image: url(assets/grass2.png);
+}
+
+.grass3 {
+  background-image: url(assets/grass3.png);
+}
+
+.grass4 {
+  background-image: url(assets/grass4.png);
+}
+
+.grass5 {
+  background-image: url(assets/grass5.png);
+}
+
+.soil1 {
+  background-image: url(assets/soil1.png);
+}
+
+.soil2 {
+  background-image: url(assets/soil2.png);
+}
+
+.soil3 {
+  background-image: url(assets/soil3.png);
+}
+
+.soil4 {
+  background-image: url(assets/soil4.png);
+}
+
+.soil5 {
+  background-image: url(assets/soil5.png);
+}
+
+.stone1 {
+  background-image: url(assets/stone1.png);
+}
+
+.stone2 {
+  background-image: url(assets/stone2.png);
+}
+
+.stone3 {
+  background-image: url(assets/stone3.png);
+}
+
+.wood {
+  background-image: url(assets/wood.png);
+}
+
+.leaves {
+  background-image: url(assets/leaves.png);
+  background-color: #4caf50;
+}
+
+.creeper {
+  background-image: url(assets/creeper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+aside {
+  width: 10vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% repeat(5, 16%) 10%;
+  align-items: center;
+  text-align: center;
+}
+
+.box img,
+.sword img,
+.shovel img,
+.pickaxe img,
+.axe img {
+  width: 50%;
+}
+
+.aside_butt button {
+  width: 75%;
+  height: 32px;
+  background-color: #707070;
+}
+
+main {
+  width: 90vw;
+  height: 100vh;
+  padding: 5vh 5vw 0 0;
+  display: grid;
+  grid-template-rows: 45% 5% 19% 19% 12%;
+  grid-template-areas:
+    "sky__"
+    "ground_"
+    "underground__d"
+    "underground__s";
+}
+
+.sky {
+  grid-area: sky__;
+  display: grid;
+  grid-template-rows: repeat(10, 10%);
+}
+
+.ground {
+  grid-area: ground_;
+  display: grid;
+  grid-template-columns: repeat(40, 2.5%);
+}
+
+.underground_d {
+  grid-area: underground__d;
+  display: grid;
+  grid-template-rows: repeat(5, 20%);
+}
+
+.row_1,
+.row_2,
+.row_3,
+.row_4,
+.row_5,
+.row_6,
+.row_7,
+.row_8,
+.row_9,
+.row_10 {
+  display: grid;
+  grid-template-columns: repeat(40, 2.5%);
+}
+
+.creeper,
+.stone1,
+.stone2,
+.stone3,
+.soil1,
+.soil2,
+.soil3,
+.soil4,
+.soil5,
+.grass1,
+.grass2,
+.grass3,
+.grass4,
+.grass5,
+.wood,
+.leaves {
+  background-size: cover;
+}
+
+.creeper {
+  width: 121%;
+  height: auto;
+  margin-left: -11%;
+}
+
+.underground_s {
+  grid-area: underground__s;
+  display: grid;
+  grid-template-rows: repeat(5, 20%);
+}
+
+.inventory {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 70%;
+  background-color: #707070;
+  grid-template-columns: repeat(16, 6.2%);
+}
+
+.grid {
+  display: grid;
+}
+
+.none {
+  display: none;
+}
+
+.inventory a img {
+  margin-top: 6%;
+  width: 50%;
+  border-color: #000000;
+}
+
+.grass1_,
+.grass2_,
+.grass3_,
+.grass4_,
+.grass5_,
+.soil1_,
+.soil2_,
+.soil3_,
+.soil4_,
+.soil5_,
+.stone1_,
+.stone2_,
+.stone3_,
+.wood_,
+.leaves_,
+.creeper_ {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.inventory span {
+  background-color: #000000;
+  border-radius: 50%;
+  width: 30%;
+  color: aliceblue;
+}
