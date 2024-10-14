@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>2D-Minecraft</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <aside>
+      <section class="aside_butt">
+        <a href="/index.html"><button>Home</button></a>
+      </section>
+      <section class="axe">
+        <a href=""><img src="assets/axe.png" alt="axe" /></a>
+      </section>
+      <section class="pickaxe">
+        <a href=""><img src="assets/pickaxe.png" alt="pickaxe" /></a>
+      </section>
+      <section class="shovel">
+        <a href=""><img src="assets/shovel.png" alt="shovel" /></a>
+      </section>
+      <section class="sword">
+        <a href=""><img src="assets/sword.png" alt="sword" /></a>
+      </section>
+      <section class="box">
+        <a href=""><img src="assets/box.png" alt="box" /></a>
+      </section>
+      <section class="aside_butt" id="restart">
+        <button>Restart</button>
+      </section>
+    </aside>
+    <main>
+      <section class="sky">
+        <section class="row_10">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_9">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_8">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_7">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_6">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_5">
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_4">
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+          <div class="leaves"></div>
+        </section>
+        <section class="row_3">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_2">
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+        <section class="row_1">
+          <div class="creeper"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="creeper"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="creeper"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="creeper"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="creeper"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+          <div class="wood"></div>
+          <div class="sky_"></div>
+          <div class="sky_"></div>
+        </section>
+      </section>
+
+      <section class="ground">
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+        <div class="grass1"></div>
+        <div class="grass2"></div>
+        <div class="grass3"></div>
+        <div class="grass4"></div>
+        <div class="grass5"></div>
+      </section>
+
+      <section class="underground_d">
+        <section class="row_1">
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+        </section>
+        <section class="row_2">
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+        </section>
+        <section class="row_3">
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+        </section>
+        <section class="row_4">
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+        </section>
+        <section class="row_5">
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+          <div class="soil1"></div>
+          <div class="soil2"></div>
+          <div class="soil3"></div>
+          <div class="soil4"></div>
+          <div class="soil5"></div>
+        </section>
+      </section>
+
+      <section class="underground_s">
+        <section class="row_1">
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+        </section>
+        <section class="row_2">
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+        </section>
+        <section class="row_3">
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+        </section>
+        <section class="row_4">
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+        </section>
+        <section class="row_5">
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone3"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+          <div class="stone2"></div>
+          <div class="stone1"></div>
+          <div class="stone1"></div>
+        </section>
+      </section>
+
+      <section class="inventory none">
+        <section class="grass1_">
+          <a href=""><img src="assets/grass1.png" alt="grass1" /></a>
+          <span></span>
+        </section>
+        <section class="grass2_">
+          <a href=""><img src="assets/grass2.png" alt="grass2" /></a>
+          <span></span>
+        </section>
+        <section class="grass3_">
+          <a href=""><img src="assets/grass3.png" alt="grass3" /></a>
+          <span></span>
+        </section>
+        <section class="grass4_">
+          <a href=""><img src="assets/grass4.png" alt="grass4" /></a>
+          <span></span>
+        </section>
+        <section class="grass5_">
+          <a href=""><img src="assets/grass5.png" alt="grass5" /></a>
+          <span></span>
+        </section>
+        <section class="soil1_">
+          <a href=""><img src="assets/soil1.png" alt="soil1" /></a>
+          <span></span>
+        </section>
+        <section class="soil2_">
+          <a href=""><img src="assets/soil2.png" alt="soil2" /></a>
+          <span></span>
+        </section>
+        <section class="soil3_">
+          <a href=""><img src="assets/soil3.png" alt="soil3" /></a>
+          <span></span>
+        </section>
+        <section class="soil4_">
+          <a href=""><img src="assets/soil4.png" alt="soil4" /></a>
+          <span></span>
+        </section>
+        <section class="soil5_">
+          <a href=""><img src="assets/soil5.png" alt="soil5" /></a>
+          <span></span>
+        </section>
+        <section class="stone1_">
+          <a href=""><img src="assets/stone1.png" alt="stone1" /></a>
+          <span></span>
+        </section>
+        <section class="stone2_">
+          <a href=""><img src="assets/stone2.png" alt="stone2" /></a>
+          <span></span>
+        </section>
+        <section class="stone3_">
+          <a href=""><img src="assets/stone3.png" alt="stone3" /></a>
+          <span></span>
+        </section>
+        <section class="wood_">
+          <a href=""><img src="assets/wood.png" alt="wood" /></a>
+          <span></span>
+        </section>
+        <section class="leaves_">
+          <a href=""><img src="assets/leaves.png" alt="leaves" /></a>
+          <span></span>
+        </section>
+        <section class="creeper_">
+          <a href=""><img src="assets/creeper.png" alt="creeper" /></a>
+          <span></span>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
