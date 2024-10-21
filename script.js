@@ -35,26 +35,26 @@ const items = {
 };
 
 const cursorUrls = {
-  axe: "./assets/cursors/axe.cur",
-  pickaxe: "assets/cursors/pickaxe.cur",
-  shovel: "assets/cursors/shovel.cur",
-  sword: "assets/cursors/sword.cur",
-  creeper: "assets/cursors/creeper.cur",
-  grass1: "assets/cursors/grass1.cur",
-  grass2: "assets/cursors/grass2.cur",
-  grass3: "assets/cursors/grass3.cur",
-  grass4: "assets/cursors/grass4.cur",
-  grass5: "assets/cursors/grass5.cur",
-  soil1: "assets/cursors/soil1.cur",
-  soil2: "assets/cursors/soil2.cur",
-  soil3: "assets/cursors/soil3.cur",
-  soil4: "assets/cursors/soil4.cur",
-  soil5: "assets/cursors/soil5.cur",
-  stone1: "assets/cursors/stone1.cur",
-  stone2: "assets/cursors/stone2.cur",
-  stone3: "assets/cursors/stone3.cur",
-  leaves: "assets/cursors/leaves.cur",
-  wood: "assets/cursors/wood.cur",
+  axe: "assets/axe1.png",
+  pickaxe: "assets/pickaxe1.png",
+  shovel: "assets/shovel1.png",
+  sword: "assets/sword1.png",
+  creeper: "assets/creeper.png",
+  grass1: "assets/grass1.png",
+  grass2: "assets/grass2.png",
+  grass3: "assets/grass3.png",
+  grass4: "assets/grass4.png",
+  grass5: "assets/grass5.png",
+  soil1: "assets/soil1.png",
+  soil2: "assets/soil2.png",
+  soil3: "assets/soil3.png",
+  soil4: "assets/soil4.png",
+  soil5: "assets/soil5.png",
+  stone1: "assets/stone1.png",
+  stone2: "assets/stone2.png",
+  stone3: "assets/stone3.png",
+  leaves: "assets/leaves.png",
+  wood: "assets/wood.png",
 };
 
 document.querySelectorAll(".inventory section").forEach((section) => {
@@ -66,10 +66,8 @@ for (let tool in tools) {
     event.preventDefault();
     selectedTool = tool;
     selectedItem = undefined;
-    if (cursorUrls[selectedTool]) {
-      console.log(cursorUrls[tool]);
+    if (cursorUrls[selectedTool])
       document.body.style.cursor = `url(${cursorUrls[selectedTool]}), auto`;
-    }
     if (selectedTool === "box") {
       if (!itemSection.classList.contains("grid")) {
         itemSection.classList.replace("none", "grid");
@@ -78,11 +76,8 @@ for (let tool in tools) {
             event.preventDefault();
             selectedItem = item;
             selectedTool = undefined;
-            if (cursorUrls[selectedItem]) {
-              console.log(1);
-
+            if (cursorUrls[selectedItem])
               document.body.style.cursor = `url(${cursorUrls[selectedItem]}), auto`;
-            }
           });
         }
       } else if (itemSection.classList.contains("grid")) {
